@@ -83,3 +83,195 @@ x==========x]
 [2026-03-11 08:40:30,190: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2026-03-11 08:59:48,762: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 08:59:48,765: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 08:59:48,775: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 08:59:48,824: INFO: common: created directory at: artifacts]
+[2026-03-11 08:59:48,880: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-11 08:59:49,155: INFO: 741865018: Splited data into training and test sets]
+[2026-03-11 08:59:49,155: INFO: 741865018: (1199, 12)]
+[2026-03-11 08:59:49,155: INFO: 741865018: (400, 12)]
+[2026-03-11 09:06:05,564: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-11 09:06:05,564: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:06:05,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:06:05,564: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:06:05,564: INFO: common: created directory at: artifacts]
+[2026-03-11 09:06:05,564: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-11 09:06:05,579: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-03-11 09:06:05,595: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:06:05,595: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-11 09:06:05,610: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:06:05,610: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:06:05,610: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:06:05,610: INFO: common: created directory at: artifacts]
+[2026-03-11 09:06:05,610: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-11 09:06:05,642: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:06:05,642: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-11 09:06:05,642: ERROR: main: name 'DataTransformationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\End-To-End-Machine-Learning-Project-Using-Mflow\main.py", line 37, in <module>
+    data_ingestion = DataTransformationTrainingPipeline()
+NameError: name 'DataTransformationTrainingPipeline' is not defined
+[2026-03-11 09:10:28,981: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-11 09:10:28,997: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:10:28,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:10:28,997: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:10:28,997: INFO: common: created directory at: artifacts]
+[2026-03-11 09:10:28,997: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-11 09:10:28,997: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-03-11 09:10:29,012: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:10:29,012: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-11 09:10:29,012: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:10:29,012: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:10:29,028: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:10:29,028: INFO: common: created directory at: artifacts]
+[2026-03-11 09:10:29,028: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-11 09:10:29,043: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:10:29,043: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-11 09:10:29,043: ERROR: main: name 'DataTransformationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\End-To-End-Machine-Learning-Project-Using-Mflow\main.py", line 37, in <module>
+    data_ingestion = DataTransformationTrainingPipeline()
+NameError: name 'DataTransformationTrainingPipeline' is not defined
+[2026-03-11 09:18:57,006: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:18:57,010: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:18:57,015: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:18:57,018: INFO: common: created directory at: artifacts]
+[2026-03-11 09:18:57,020: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-11 09:18:57,063: INFO: 741865018: Splited data into training and test sets]
+[2026-03-11 09:18:57,065: INFO: 741865018: (1199, 12)]
+[2026-03-11 09:18:57,067: INFO: 741865018: (400, 12)]
+[2026-03-11 09:19:13,596: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-11 09:19:13,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:19:13,602: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:19:13,605: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:19:13,606: INFO: common: created directory at: artifacts]
+[2026-03-11 09:19:13,607: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-11 09:19:13,607: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-03-11 09:19:13,612: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:19:13,613: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-11 09:19:13,619: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:19:13,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:19:13,623: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:19:13,624: INFO: common: created directory at: artifacts]
+[2026-03-11 09:19:13,627: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-11 09:19:13,648: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:19:13,648: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-11 09:19:13,649: ERROR: main: name 'DataTransformationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\End-To-End-Machine-Learning-Project-Using-Mflow\main.py", line 37, in <module>
+    data_ingestion = DataTransformationTrainingPipeline()
+NameError: name 'DataTransformationTrainingPipeline' is not defined
+[2026-03-11 09:20:06,363: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-11 09:20:06,380: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:20:06,380: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:20:06,380: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:20:06,380: INFO: common: created directory at: artifacts]
+[2026-03-11 09:20:06,380: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-11 09:20:06,380: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-03-11 09:20:06,380: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:20:06,380: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-11 09:20:06,397: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-11 09:20:06,397: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-11 09:20:06,397: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-11 09:20:06,397: INFO: common: created directory at: artifacts]
+[2026-03-11 09:20:06,397: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-11 09:20:06,413: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-11 09:20:06,413: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-11 09:20:06,413: ERROR: main: name 'DataTransformationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\End-To-End-Machine-Learning-Project-Using-Mflow\main.py", line 37, in <module>
+    data_ingestion = DataTransformationTrainingPipeline()
+NameError: name 'DataTransformationTrainingPipeline' is not defined
+[2026-03-17 07:52:03,511: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-17 07:52:03,542: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 07:52:03,542: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 07:52:03,557: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 07:52:03,573: INFO: common: created directory at: artifacts]
+[2026-03-17 07:52:03,573: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-17 07:52:03,573: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-03-17 07:52:03,636: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-17 07:52:03,636: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-17 07:52:03,667: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 07:52:03,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 07:52:03,682: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 07:52:03,682: INFO: common: created directory at: artifacts]
+[2026-03-17 07:52:03,682: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 07:52:03,761: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-17 07:52:03,761: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-17 07:52:03,792: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 07:52:03,792: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 07:52:03,807: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 07:52:03,807: INFO: common: created directory at: artifacts]
+[2026-03-17 07:52:03,807: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-17 07:52:03,886: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-17 07:52:03,886: INFO: data_transformation: (1199, 12)]
+[2026-03-17 07:52:03,886: INFO: data_transformation: (400, 12)]
+[2026-03-17 07:52:03,886: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-17 08:10:18,260: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 08:10:18,260: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 08:10:18,277: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 08:10:18,280: INFO: common: created directory at: artifacts]
+[2026-03-17 08:10:18,282: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-17 08:13:23,220: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-17 08:13:23,220: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 08:13:23,220: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 08:13:23,236: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 08:13:23,236: INFO: common: created directory at: artifacts]
+[2026-03-17 08:13:23,236: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-17 08:13:23,236: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2026-03-17 08:13:23,236: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-17 08:13:23,236: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-17 08:13:23,252: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 08:13:23,252: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 08:13:23,252: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 08:13:23,252: INFO: common: created directory at: artifacts]
+[2026-03-17 08:13:23,252: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-17 08:13:23,283: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-17 08:13:23,283: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-17 08:13:23,299: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 08:13:23,299: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 08:13:23,299: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 08:13:23,299: INFO: common: created directory at: artifacts]
+[2026-03-17 08:13:23,299: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-17 08:13:23,330: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-17 08:13:23,330: INFO: data_transformation: (1199, 12)]
+[2026-03-17 08:13:23,345: INFO: data_transformation: (400, 12)]
+[2026-03-17 08:13:23,345: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-17 08:13:23,345: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-17 08:13:23,345: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-17 08:13:23,361: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-17 08:13:23,361: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-17 08:13:23,361: INFO: common: created directory at: artifacts]
+[2026-03-17 08:13:23,361: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-17 08:13:23,377: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
